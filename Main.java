@@ -1,5 +1,3 @@
-package sample;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,9 +9,9 @@ public class Main extends Application {
 
     @Override
     public void start(@NotNull Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("CadastroLogin.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Cadastroller_cadastro2.fxml"));
         // scene = new Scene(root);
-        primaryStage.setTitle("Tela de Cadastro");
+        primaryStage.setTitle("Cadastrar Funcionario");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="441.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_login">
+   <children>
+      <Button fx:id="btnSalvar" layoutX="237.0" layoutY="351.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="110.0" text="Salvar" />
+      <Button fx:id="btnVoltar" layoutX="35.0" layoutY="399.0" mnemonicParsing="false" text="Voltar" />
+      <CheckBox layoutX="400.0" layoutY="319.0" mnemonicParsing="false" text="Dentro da Validade" />
+      <Label layoutY="25.0" text="Cadastro de Produtos" />
+      <TextField fx:id="id_Prod" layoutX="144.0" layoutY="123.0" opacity="0.41" prefHeight="26.0" prefWidth="347.0" text="ID do Produto" />
+      <TextField fx:id="quant" layoutX="144.0" layoutY="174.0" opacity="0.41" prefHeight="26.0" prefWidth="347.0" text="Quantidade do Produto" />
+      <TextField fx:id="valor" layoutX="144.0" layoutY="225.0" opacity="0.41" prefHeight="26.0" prefWidth="347.0" text="Valor do Produto" />
+      <TextField fx:id="tipo" layoutX="144.0" layoutY="270.0" opacity="0.41" prefHeight="26.0" prefWidth="347.0" text="Tipo do Produto" />
+      <TextField fx:id="produto" layoutX="144.0" layoutY="77.0" opacity="0.41" prefHeight="26.0" prefWidth="347.0" text="Nome do Produto" />
+   </children>
+</AnchorPane>
