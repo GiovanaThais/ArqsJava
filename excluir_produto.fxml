@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_Excluir">
+   <children>
+      <Button fx:id="botaoExluirP" layoutX="228.0" layoutY="284.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="144.0" style="-fx-background-color: #deeaee;" text="Excluir Produto" textFill="#807f7f" />
+      <Button fx:id="btnVoltar" layoutX="14.0" layoutY="360.0" mnemonicParsing="false" style="-fx-background-color: #deeaee;" text="Voltar" textFill="#403f3f" />
+      <CheckBox fx:id="checkButon" layoutX="71.0" layoutY="247.0" mnemonicParsing="false" text="Produto já Cadastrado" />
+      <RadioButton fx:id="radionButon1" layoutX="71.0" layoutY="146.0" mnemonicParsing="false" text="Produto Defeituoso" />
+      <RadioButton fx:id="radioButon2" layoutX="71.0" layoutY="173.0" mnemonicParsing="false" text="Produto Vencido" />
+      <RadioButton fx:id="radionButon3" layoutX="71.0" layoutY="198.0" mnemonicParsing="false" text="Outro Problema" />
+      <TextField fx:id="txt_idExcluir" layoutX="228.0" layoutY="74.0" opacity="0.6" prefHeight="18.0" prefWidth="270.0" promptText="confirm" text="Insira ID do produto para confirmação" />
+      <Label fx:id="label_excluir" layoutX="71.0" layoutY="74.0" prefHeight="26.0" prefWidth="112.0" text="ID do produto:" />
+   </children>
+</AnchorPane>

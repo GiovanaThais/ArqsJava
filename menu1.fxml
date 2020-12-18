@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_Menu">
+    <children>
+        <Button fx:id="btnCadastrarProduto" layoutX="107.0" layoutY="86.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="146.0" style="-fx-background-color: #deeaee;" text="Cadastrar Produto" textFill="#545353" />
+        <Button fx:id="btnEditarProduto" layoutX="350.0" layoutY="89.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="146.0" style="-fx-background-color: #deeaee;" text="Editar Produto" textFill="#656464" />
+        <Button fx:id="btnListarProduto" layoutX="107.0" layoutY="246.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="146.0" style="-fx-background-color: #deeaee;" text="Listar Pordutos" textFill="#4a4a4a" />
+        <Button fx:id="btnExcluirProduto" layoutX="350.0" layoutY="246.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="139.0" style="-fx-background-color: #deeaee;" text="Excluir Produto" textFill="#616161" />
+        <Accordion />
+        <Label layoutX="178.0" layoutY="18.0" prefHeight="36.0" prefWidth="245.0" text="Sistema para controle de Estoque " />
+      <Button fx:id="btnSairMenu" layoutX="518.0" layoutY="351.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="47.0" text="Sair" />
+      <Hyperlink fx:id="linkSaibaMais" layoutX="196.0" layoutY="365.0" text="Saiba mais " />
+      <Hyperlink fx:id="linkLançamentos" layoutX="81.0" layoutY="365.0" text="Lançamentos" />
+      <Hyperlink fx:id="linkAjuda" layoutX="14.0" layoutY="365.0" text="Ajuda" />
+      <Hyperlink fx:id="linkPlanoPremium" layoutX="301.0" layoutY="365.0" text="Plano PREMIUM" />
+    </children>
+</AnchorPane>

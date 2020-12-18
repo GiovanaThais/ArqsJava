@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_CadastroFuncionario">
+   <children>
+      <TabPane prefHeight="402.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Cadastrar">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="nome" layoutX="48.0" layoutY="62.0" text="Nome  Completo:" />
+                        <Label fx:id="num" layoutX="47.0" layoutY="108.0" text="ID do funcionário:" />
+                        <Label fx:id="senha" layoutX="53.0" layoutY="169.0" text="Criar Senha:" />
+                        <Label fx:id="confirmar" layoutX="48.0" layoutY="219.0" text="Confirmar Senha:" />
+                        <Hyperlink layoutX="180.0" layoutY="272.0" text="Acordos do Sistema" />
+                        <CheckBox fx:id="termos" layoutX="36.0" layoutY="275.0" mnemonicParsing="false" text="Concordo com os" />
+                        <PasswordField fx:id="textSenha" layoutX="184.0" layoutY="156.0" />
+                        <PasswordField fx:id="textSenha1" layoutX="180.0" layoutY="214.0" />
+                        <Button fx:id="botaoSalvar" layoutX="238.0" layoutY="315.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="85.0" style="-fx-background-color: #deeaee;" text="Salvar" textFill="#212221" />
+                        <TextField fx:id="textoNome" layoutX="184.0" layoutY="57.0" prefHeight="26.0" prefWidth="255.0" />
+                        <TextField fx:id="textID" layoutX="184.0" layoutY="103.0" prefHeight="18.0" prefWidth="254.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Login">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="btnEntre" layoutX="221.0" layoutY="293.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="124.0" style="-fx-background-color: #deeaee;" text="Entrar" />
+                        <Label layoutX="70.0" layoutY="99.0" text="ID do funcionario:" />
+                        <Label layoutX="111.0" layoutY="185.0" text="Senha:" />
+                        <TextField fx:id="texFunc" layoutX="197.0" layoutY="94.0" opacity="0.43" text="Insira seu ID " />
+                        <PasswordField fx:id="senhas" layoutX="197.0" layoutY="180.0" opacity="0.64" text="senha" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
